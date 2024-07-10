@@ -11,7 +11,7 @@ namespace Solution
     {
         private int _doorPosition = 0;
         private bool _opening = true; // true = Opening, false = closing
-        private bool _moving = false;
+        private bool _moving = false;  // true = moving, false = stopped
 
         public string ProcessEvents(string events)
         {
